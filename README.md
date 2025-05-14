@@ -27,8 +27,8 @@ sudo apt-get update -y
 sudo apt-get install curl -y
 curl -sL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 sudo apt-get install -y nodejs
-node -v # should show v18.16.0 or above
-npm -v  # should show 9.5.1 or above
+node -v # should show v22 or above
+npm -v  # should show 9 or above
 sudo npm install pm2 -g
 ```
 
